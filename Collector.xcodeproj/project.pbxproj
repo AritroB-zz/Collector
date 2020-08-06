@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4D57FA1024DC683A00640D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D57FA0F24DC683A00640D16 /* AppDelegate.swift */; };
 		4D57FA1224DC683A00640D16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D57FA1124DC683A00640D16 /* SceneDelegate.swift */; };
-		4D57FA1424DC683A00640D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D57FA1324DC683A00640D16 /* ViewController.swift */; };
 		4D57FA1724DC683A00640D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D57FA1524DC683A00640D16 /* Main.storyboard */; };
 		4D57FA1A24DC683A00640D16 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D57FA1824DC683A00640D16 /* Collector.xcdatamodeld */; };
 		4D57FA1C24DC683B00640D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D57FA1B24DC683B00640D16 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		4D57FA0C24DC683A00640D16 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D57FA0F24DC683A00640D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D57FA1124DC683A00640D16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D57FA1324DC683A00640D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D57FA1624DC683A00640D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D57FA1924DC683A00640D16 /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		4D57FA1B24DC683B00640D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				4D57FA0F24DC683A00640D16 /* AppDelegate.swift */,
 				4D57FA1124DC683A00640D16 /* SceneDelegate.swift */,
-				4D57FA1324DC683A00640D16 /* ViewController.swift */,
 				4D57FA1524DC683A00640D16 /* Main.storyboard */,
 				4D57FA1B24DC683B00640D16 /* Assets.xcassets */,
 				4D57FA1D24DC683B00640D16 /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D57FA1424DC683A00640D16 /* ViewController.swift in Sources */,
 				4D57FA1A24DC683A00640D16 /* Collector.xcdatamodeld in Sources */,
 				4D57FA1024DC683A00640D16 /* AppDelegate.swift in Sources */,
 				4D57FA1224DC683A00640D16 /* SceneDelegate.swift in Sources */,
@@ -289,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66364UUWUY;
 				INFOPLIST_FILE = Collector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66364UUWUY;
 				INFOPLIST_FILE = Collector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
